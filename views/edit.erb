@@ -1,0 +1,10 @@
+<h1>Edit</h1>
+<form action="/edit" method="post">
+    <input type="hidden" name="id" value="<%=@show.id%>" />
+    Show: <input type="text" name="show" value="<%=@show.name%>"/><br />
+    Season: <input type="text" name="season" value="<%=@show.season%>"/><br />
+    Episode: <input type="text" name="episode" value="<%=@show.episode%>"/><br />
+    <input type="submit" value="Submit" />
+</form>
+
+<a href="/delete/<%=@show.id%>">Delete</a>

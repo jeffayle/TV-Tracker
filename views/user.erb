@@ -1,0 +1,17 @@
+<h1>My Shows</h1>
+<%@shows.each do |show| %>
+    <h2><%=show.name%></h2>
+    Season: <%=show.season%> [<a href="/nextseason/<%=show.id%>">next</a>]<br />
+    Episode: <%=show.episode%> [<a href="/nextep/<%=show.id%>">next</a>]<br />
+    <a href="/edit/<%=show.id%>">Edit</a>
+<%end%>
+
+<h1>Add TV Show</h1>
+<form action="/addshow" method="post">
+    Show: <input type="text" name="show" /><br />
+    Season: <input type="text" name="season" /><br />
+    Episode: <input type="text" name="episode" /><br />
+    <input type="submit" value="Submit" />
+</form>
+
+<a href="/logout">Logout</a>
