@@ -3,6 +3,6 @@ rack-flash
 do_postgres --version 0.10.1
 dm-validations --version 0.10.2
 dm-timestamps --version 0.10.2
-dm-core
+dm-core --version 0.10.2
 dm-types --version 0.10.2
 sinatra --version 1.0
