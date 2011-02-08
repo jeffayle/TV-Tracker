@@ -1,8 +1,8 @@
 rack-datamapper-session
 rack-flash
-do_postgres --version 0.10.1
-dm-validations --version 0.10.2
-dm-timestamps --version 0.10.2
-dm-core --version 0.10.2
-dm-types --version 0.10.2
+do_postgres
+dm-validations
+dm-timestamps
+dm-core
+dm-types
 sinatra --version 1.0
