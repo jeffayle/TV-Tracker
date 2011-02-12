@@ -2,6 +2,7 @@ rack-datamapper-session
 rack-flash
 do_postgres
 dm-postgres-adapter
+pg
 dm-validations
 dm-timestamps
 dm-core
