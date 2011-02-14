@@ -1,11 +1,9 @@
+builder -v 2.1.2
 rack-datamapper-session
 rack-flash
-do_postgres
-dm-postgres-adapter
-pg
-dm-validations
-dm-timestamps
-dm-core
-dm-types
+do_postgres --version 0.10.1
+dm-validations --version 0.10.2
+dm-timestamps --version 0.10.2
+dm-core --version 0.10.2
+dm-types --version 0.10.2
 sinatra --version 1.0
-builder -v 2.1.2
