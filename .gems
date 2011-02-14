@@ -8,3 +8,4 @@ dm-timestamps
 dm-core
 dm-types
 sinatra --version 1.0
+builder -v 2.1.2
